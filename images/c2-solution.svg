@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="620" rx="42" fill="#f8fafc"/>
+  <rect x="50" y="50" width="900" height="520" rx="34" fill="url(#g)" stroke="#7dd3fc" stroke-width="3"/>
+  <circle cx="185" cy="190" r="76" fill="#0ea5e9" opacity="0.15"/>
+  <circle cx="810" cy="430" r="110" fill="#0284c7" opacity="0.10"/>
+  <rect x="120" y="330" width="720" height="18" rx="9" fill="#0ea5e9" opacity="0.35"/>
+  <rect x="120" y="375" width="580" height="18" rx="9" fill="#0ea5e9" opacity="0.25"/>
+  <rect x="120" y="420" width="660" height="18" rx="9" fill="#0ea5e9" opacity="0.18"/>
+  <text x="120" y="200" font-family="Arial, sans-serif" font-size="46" font-weight="800" fill="#111827">C.2 Proposer une solution</text>
+  <text x="120" y="260" font-family="Arial, sans-serif" font-size="26" fill="#475569">Choix des composants et des blocs électroniques</text>
+</svg>
