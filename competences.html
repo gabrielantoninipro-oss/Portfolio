@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compétences - Gabriel Antonini</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar">
+    <a class="logo" href="index.html">
+      <img src="images/logoGEII.png" alt="Logo GEII" class="logo-img">
+      <span>Gabriel Antonini</span>
+    </a>
+
+    <div class="nav-search-wrapper">
+      <input type="search" class="nav-search" placeholder="Rechercher..." aria-label="Recherche dans le menu">
+      <div class="search-suggestions" aria-label="Suggestions de recherche"></div>
+    </div>
+
+    <button class="menu-toggle" aria-label="Ouvrir le menu">Menu</button>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="section-block">
+    <div class="section-header">
+      <span>Compétences GEII</span>
+      <h2>Compétences acquises en BUT GEII</h2>
+    </div>
+
+    <p class="page-intro">
+      Cette première zone présente les compétences acquises en BUT Génie Électrique et Informatique Industrielle,
+      notamment à travers les projets <strong>Thermomètre de Bain pour bébé</strong> et
+      <strong>Kart à Hélice radiocommandé</strong>.
+    </p>
+
+    <div class="competence-course">
+
+      <article class="course-card">
+        <button class="course-header accordion-button" aria-expanded="false" aria-controls="concevoir-panel">
+          <div class="course-title">
+            <span class="course-badge concevoir-badge">1</span>
+            <div>
+              <h3>Compétence principale : Concevoir</h3>
+              <p>Analyser un besoin, proposer une solution technique et préparer la réalisation d'un système.</p>
+            </div>
+          </div>
+          <span class="accordion-icon">▾</span>
+        </button>
+
+        <div id="concevoir-panel" class="accordion-content course-content">
+          <div class="lesson-box">
+            <h4>Cours : concevoir en GEII</h4>
+            <p>
+              Concevoir consiste à transformer un besoin client en solution technique. Cette démarche commence
+              par l'analyse du cahier des charges, se poursuit par le choix d'une architecture et de composants,
+              puis se concrétise par un schéma, un routage, un prototype et un dossier technique.
+            </p>
+            <p>
+              Dans le projet <strong>Thermomètre de Bain</strong>, cette compétence a été mobilisée pour concevoir
+              un système capable de mesurer la température de l'eau, comparer cette mesure à des seuils et informer
+              l'utilisateur avec des LEDs de couleur.
+            </p>
+          </div>
+
+          <div class="application-grid">
+            <button class="application-card" data-title="C.1 Identifier les fonctions demandées"
+              data-img="images/docx/tdb_ddc_1.png"
+              data-text="Lors du projet Thermomètre de Bain, j'ai étudié le cahier des charges afin d'identifier les fonctions principales : mesurer la température de l'eau, comparer la température à des seuils et informer l'utilisateur avec des LEDs. Cette étape correspond à l'analyse fonctionnelle du système avant de chercher une solution technique.">
+              <img src="images/docx/tdb_ddc_1.png" alt="Identifier les fonctions"><p class="image-caption"><strong>Synoptique fonctionnel du Thermomètre de Bain</strong></p>
+              <h4 id="c1">C.1 Identifier les fonctions</h4>
+              <p>Analyse du cahier des charges et des fonctions attendues.</p>
+            </button>
+
+            <button class="application-card" data-title="C.2 Proposer une solution technique"
+              data-img="images/docx/kah_ddc_1.png"
+              data-text="Pour répondre au besoin du Thermomètre de Bain, nous avons choisi des composants adaptés : un capteur LM35 pour mesurer la température, des AOP MCP6002 pour réaliser les comparaisons, une porte logique 74HC02 et des LEDs de signalisation. Ces choix permettent de répondre aux exigences techniques et économiques du projet.">
+              <img src="images/docx/kah_ddc_1.png" alt="Proposer une solution technique"><p class="image-caption"><strong>Architecture du Kart à Hélice</strong></p>
+              <h4 id="c2">C.2 Proposer une solution</h4>
+              <p>Choix des composants et de l'architecture électronique.</p>
+            </button>
+
+            <button class="application-card" data-title="C.3 Affiner une solution technique"
+              data-img="images/docx/kah_ddc_2.png"
+              data-text="Après l'étude préliminaire, la solution a été affinée grâce à la conception du schéma électronique sous ISIS et au routage du circuit imprimé sous ARES. Cette étape permet de vérifier la faisabilité du montage avant la fabrication de la carte.">
+              <img src="images/docx/kah_ddc_2.png" alt="Affiner une solution technique"><p class="image-caption"><strong>Plan de carte réalisé sous ARES</strong></p>
+              <h4 id="c3">C.3 Affiner par prototypage</h4>
+              <p>Schéma, routage et préparation du circuit imprimé.</p>
+            </button>
+
+            <button class="application-card" data-title="C.4 Rédiger un dossier technique"
+              data-img="images/docx/tdb_ddf_1.png"
+              data-text="J'ai participé à la rédaction des documents techniques du projet, notamment le Dossier de Conception et le Dossier de Fabrication. Ces documents regroupent le schéma électrique, la nomenclature, les typons, le plan de perçage et les informations nécessaires à la fabrication.">
+              <img src="images/docx/tdb_ddf_1.png" alt="Rédiger un dossier technique"><p class="image-caption"><strong>Dossier de fabrication et schéma de carte</strong></p>
+              <h4 id="c4">C.4 Rédiger un dossier</h4>
+              <p>DDC, DDF, nomenclature et documents de fabrication.</p>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="course-card">
+        <button class="course-header accordion-button" aria-expanded="false" aria-controls="verifier-panel">
+          <div class="course-title">
+            <span class="course-badge verifier-badge">2</span>
+            <div>
+              <h3>Compétence principale : Vérifier</h3>
+              <p>Tester un système, analyser les résultats et vérifier la conformité au cahier des charges.</p>
+            </div>
+          </div>
+          <span class="accordion-icon">▾</span>
+        </button>
+
+        <div id="verifier-panel" class="accordion-content course-content">
+          <div class="lesson-box">
+            <h4>Cours : vérifier en GEII</h4>
+            <p>
+              Vérifier consiste à prouver qu'un produit fonctionne correctement et respecte les exigences du cahier
+              des charges. Cette compétence nécessite de préparer des procédures d'essais, d'utiliser des instruments
+              de mesure, de relever des résultats et d'identifier les éventuelles non-conformités.
+            </p>
+            <p>
+              Dans le projet <strong>Kart à Hélice</strong>, cette compétence a été utilisée pour contrôler les cartes,
+              vérifier les dimensions, tester les fonctions du récepteur, le moteur, le servomoteur, les LEDs et les
+              éléments de commande.
+            </p>
+          </div>
+
+          <div class="application-grid">
+            <button class="application-card" data-title="V.1 Élaborer et appliquer une procédure d'essais"
+              data-img="images/docx/kah_ddv_1.jpg"
+              data-text="Dans le projet Kart à Hélice, j'ai participé aux essais de vérification du récepteur. Les procédures consistaient à mesurer les dimensions de la carte, contrôler les trous de fixation, tester l'interrupteur, vérifier la réception des données et valider le fonctionnement des actionneurs.">
+              <img src="images/docx/kah_ddv_1.jpg" alt="Procédure d'essais"><p class="image-caption"><strong>Mesure de conformité au pied à coulisse</strong></p>
+              <h4 id="v1">V.1 Procédure d’essais</h4>
+              <p>Préparation des essais, mesures et validation.</p>
+            </button>
+
+            <button class="application-card" data-title="V.2 Identifier et corriger une non-conformité"
+              data-img="images/docx/tdb_ddv_2.jpg"
+              data-text="Les vérifications permettent de comparer les résultats obtenus aux valeurs attendues. Par exemple, les mesures au pied à coulisse servent à vérifier que les dimensions et les trous de fixation respectent les tolérances. En cas d'écart, il faut analyser la cause et proposer une correction.">
+              <img src="images/docx/tdb_ddv_2.jpg" alt="Non-conformité"><p class="image-caption"><strong>Contrôle des résultats et conformité</strong></p>
+              <h4 id="v2">V.2 Non-conformité</h4>
+              <p>Analyse des résultats et corrections éventuelles.</p>
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-header">
+      <span>Diplôme Universitaire</span>
+      <h2>Compétences acquises en Diplôme Universitaire en Intelligence Artificielle</h2>
+    </div>
+
+    <p class="page-intro">
+      Cette deuxième zone présente les compétences développées dans le cadre du Diplôme Universitaire en Intelligence Artificielle.
+      Ces compétences portent sur l'exploitation des données, la résolution de problèmes complexes et l'analyse d'informations numériques.
+    </p>
+
+    <div class="competence-course">
+
+      <article class="course-card">
+        <button class="course-header accordion-button" aria-expanded="false" aria-controls="ia-panel">
+          <div class="course-title">
+            <span class="course-badge ia-badge">IA</span>
+            <div>
+              <h3>Compétences en Intelligence Artificielle</h3>
+              <p>Data sciences, optimisation, métaheuristique et analyse d'image.</p>
+            </div>
+          </div>
+          <span class="accordion-icon">▾</span>
+        </button>
+
+        <div id="ia-panel" class="accordion-content course-content">
+          <div class="lesson-box">
+            <h4>Cours : compétences du DU Intelligence Artificielle</h4>
+            <p>
+              Le Diplôme Universitaire en Intelligence Artificielle permet d'aborder plusieurs domaines liés au traitement
+              de données et à la résolution de problèmes. Les notions travaillées concernent notamment la data science,
+              l'optimisation, les métaheuristiques et l'analyse d'image.
+            </p>
+          </div>
+
+          <div class="application-grid">
+            <button class="application-card" data-title="Data sciences"
+              data-img="images/ia-data-sciences.png"
+              data-text="La data science regroupe l’ensemble des méthodes permettant de <strong>collecter</strong>, <strong>organiser</strong>, <strong>analyser</strong> et <strong>interpréter des données</strong>. Dans le cadre du <strong>Diplôme Universitaire en Intelligence Artificielle</strong>, j’ai travaillé sur une base de données mondiale liée à la <strong>pandémie de COVID‑19</strong> à l’aide de <strong>Python</strong>, <strong>Pandas</strong> et <strong>Matplotlib</strong>. J’ai appris à manipuler des <strong>DataFrames</strong>, filtrer des informations, regrouper des données par <strong>pays</strong> ou <strong>continents</strong>, calculer des <strong>indicateurs statistiques</strong> et réaliser des comparaisons pertinentes. J’ai également conçu plusieurs représentations graphiques comme des <strong>diagrammes en bâtons</strong>, des <strong>graphiques d’évolution temporelle</strong>, des <strong>camemberts</strong> et des <strong>nuages de points</strong> afin d’identifier des tendances et d’interpréter les résultats. Ce projet m’a permis de développer des compétences en <strong>programmation Python</strong>, <strong>analyse statistique</strong>, <strong>visualisation de données</strong> et <strong>exploitation d’informations complexes</strong> pour transformer des <strong>données brutes</strong> en <strong>connaissances utiles à la prise de décision</strong>.">
+              <img src="images/ia-data-sciences.png" alt="Data sciences">
+              <p class="image-caption"><strong>Projet Data Science : analyse de données COVID-19 avec Python, Pandas et Matplotlib</strong></p>
+              <h4>Data sciences</h4>
+              <p><strong>Analyse statistique</strong>, <strong>visualisation</strong> et exploitation de données avec <strong>Python</strong>.</p>
+            </button>
+
+            <button class="application-card" data-title="Optimisation"
+              data-img="images/ia-optimisation.png"
+              data-text="Les méthodes d’<strong>optimisation</strong> permettent de rechercher la meilleure solution à un problème en minimisant une <strong>fonction de coût</strong>. Au cours du Diplôme Universitaire en Intelligence Artificielle, j’ai découvert plusieurs approches fondamentales comme la <strong>dichotomie</strong>, la méthode de <strong>Newton-Raphson</strong> et la <strong>descente de gradient</strong>. J’ai appris à comprendre comment un algorithme peut améliorer progressivement ses résultats grâce au <strong>gradient</strong>. J’ai également étudié les notions de <strong>convergence</strong>, de <strong>minimum local</strong>, de <strong>minimum global</strong> et l’importance du <strong>learning rate</strong> dans les performances d’un modèle. Ces connaissances me permettent de comprendre les mécanismes mathématiques utilisés dans l’apprentissage automatique et l’entraînement des modèles d’IA.">
+              <img src="images/ia-optimisation.png" alt="Optimisation">
+              <p class="image-caption"><strong>Optimisation : descente de gradient et recherche du minimum global</strong></p>
+              <h4>Optimisation</h4>
+              <p><strong>Fonction de coût</strong>, <strong>gradient</strong> et <strong>optimisation</strong>.</p>
+            </button>
+
+            
+
+            <button class="application-card" data-title="Analyse d'image"
+              data-img="images/ia-analyse-image.png"
+              data-text="L’analyse d’image consiste à extraire automatiquement des informations à partir d’images numériques afin de faciliter leur interprétation. Dans le cadre du Diplôme Universitaire en Intelligence Artificielle, j’ai appris à utiliser le logiciel <strong>ImageJ</strong> pour réaliser des opérations de <strong>traitement d’image</strong>, de <strong>segmentation</strong> et d’<strong>analyse quantitative</strong>. J’ai découvert comment manipuler différents formats d’images, ajuster les niveaux de gris, utiliser des <strong>histogrammes</strong>, appliquer des <strong>filtres de traitement</strong> et améliorer la qualité d’une image avant son analyse. J’ai également étudié les opérations morphologiques telles que l’<strong>érosion</strong>, la <strong>dilatation</strong>, l’<strong>ouverture</strong> et la <strong>fermeture</strong>, permettant d’isoler et de caractériser des objets présents dans une image. Enfin, j’ai appris à effectuer des mesures automatiques, analyser des particules, extraire des données quantitatives et interpréter les résultats obtenus. Cette compétence m’a permis de développer une compréhension des techniques utilisées en <strong>vision par ordinateur</strong>, en <strong>traitement d’images scientifiques</strong> et dans les applications d’<strong>intelligence artificielle</strong> liées à l’exploitation de données visuelles.">
+              <img src="images/ia-analyse-image.png" alt="Analyse d'image">
+              <p class="image-caption"><strong>Analyse d’image : traitement, segmentation et mesures avec ImageJ</strong></p>
+              <h4>Analyse d'image</h4>
+              <p><strong>ImageJ</strong>, <strong>segmentation</strong> et <strong>traitement d’images</strong>.</p>
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<div class="modal-backdrop" id="skillModal">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h3 id="modalTitle"></h3>
+      <button class="btn btn-secondary" id="modalClose">Fermer</button>
+    </div>
+    <div class="modal-body-wrapper">
+      <div class="modal-image">
+        <img id="modalImg" src="" alt="">
+      </div>
+      <div class="modal-body">
+        <p id="modalText"></p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <p>© <span id="year"></span> Gabriel Antonini - Portfolio BUT GEII</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Projets - Gabriel Antonini</title>
+<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<nav class="navbar">
+<a class="logo" href="index.html"><img alt="Logo GEII" class="logo-img" src="images/logoGEII.png"/><span>Gabriel Antonini</span></a>
+<div class="nav-search-wrapper"><input class="nav-search" placeholder="Rechercher..." type="search"/><div class="search-suggestions"></div></div>
+<button class="menu-toggle">Menu</button>
+<ul class="nav-links">
+<li><a href="index.html">Accueil</a></li>
+<li><a href="apropos.html">À propos</a></li>
+<li><a href="competences.html">Compétences</a></li>
+<li><a href="projets.html">Projets</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="projects section-block" id="projets">
+<div class="section-header"><span>Projets</span><h2>Quelques réalisations</h2></div>
+<div class="projects-container">
+<article class="project-item">
+<div class="project-header">
+<div class="project-icon"><span>⚡</span></div>
+<div class="project-info">
+<h3>Gestion d'éclairage LED d'une maquette du Rafale</h3>
+<p class="project-description">Conception et réalisation d'une carte électronique assurant la gestion de l'éclairage LED d'une maquette miniature du Rafale.</p>
+</div>
+<button aria-controls="project1-content" aria-expanded="false" class="accordion-button" id="project1-header">
+<span aria-hidden="" class="accordion-icon">▾</span>
+<span class="accordion-title">Détails</span>
+</button>
+</div>
+<div aria-labelledby="project1-header" class="accordion-content scrollable" id="project1-content" role="region">
+<div class="project-section-grid"><article class="project-section-card" data-detail="project1-content-section-1" data-title="Context" role="button" tabindex="0"><div class="project-section-card-top"><h4>Context</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c1">C.1</a></div></div><p>Cliquez sur la carte pour afficher les typons et leur explication.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project1-content-section-1">
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/docx/slr_cdc_contexte.jpg" alt="Extrait du cahier des charges du Rafale miniature"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">CONTEXTE</span>
+<h4>Analyse du cahier des charges</h4>
+<p><strong>Analyse du besoin</strong><br/>L’analyse du cahier des charges a permis d’identifier les fonctions attendues du système d’éclairage d’une maquette miniature du Rafale. L’objectif principal est de reproduire de manière réaliste les effets lumineux présents sur l’avion réel, notamment les feux de navigation et les signaux lumineux utilisés lors des opérations au sol. Le système doit assurer une gestion autonome des différents éclairages tout en respectant les contraintes d’encombrement, de consommation énergétique et de coût imposées par le projet. Cette étude a permis de définir les solutions électroniques nécessaires à la commande des LED ainsi qu’à l’intégration du système dans la maquette.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project1-content-section-2" data-title="Architecture" role="button" tabindex="0"><div class="project-section-card-top"><h4>Architecture</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c2">C.2</a><a class="competence-tag" href="competences.html#c3">C.3</a></div></div><p>Cliquez sur la carte pour afficher les typons et leur explication.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project1-content-section-2">
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/custom_arch/slr_architecture.png" alt="Synoptique architectural"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">ARCHITECTURE</span>
+<h4>Analyse de l'architecture du système</h4>
+<p><strong>Analyse de l'architecture du système</strong><br/>L’analyse du synoptique architectural a permis d’identifier les différents blocs fonctionnels du système sonore et lumineux intégré à la maquette du Rafale. L’architecture est organisée autour de quatre fonctions principales : l’acquisition d’informations, le traitement des données, l’alimentation énergétique et les actions réalisées sur l’utilisateur. Une référence de tension fournit les informations nécessaires au microcontrôleur ATTiny45V, qui pilote les effets lumineux et sonores. Le système intègre également un oscillateur basé sur un NE555 ainsi qu’un supercondensateur assurant l’alimentation du montage. Les sorties commandent plusieurs LED de signalisation ainsi qu’un buzzer piézoélectrique afin de reproduire les effets lumineux et sonores du Rafale. Cette étude a permis de valider les échanges d’informations entre les différents blocs et de justifier l’architecture retenue.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project1-content-section-4" data-title="Test de vérification" role="button" tabindex="0"><div class="project-section-card-top"><h4>Test de vérification</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#v1">V.1</a><a class="competence-tag" href="competences.html#v2">V.2</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project1-content-section-4">
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/docx/kah_ddv_1.jpg" alt="Mesure au pied à coulisse utilisée comme exemple de test"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des essais et validation</h4>
+<p><strong></strong><br/>Les tests réalisés sur la maquette du Rafale ont permis de valider le fonctionnement de l’ensemble des effets lumineux et sonores. Les différentes séquences d’éclairage ont été vérifiées afin de s’assurer du bon comportement des LED et de leur synchronisation avec les fonctions attendues. Les essais ont également confirmé la conformité de la carte électronique réalisée ainsi que la fiabilité de l’assemblage des composants. Les résultats obtenus démontrent que le système répond aux exigences fonctionnelles définies dans le cahier des charges.</p>
+</div>
+</div>
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/docx/tdb_ddv_2.jpg" alt="Contrôle de conformité utilisé comme exemple de vérification"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des écarts et conformité</h4>
+<p><strong>Analyse des défauts</strong><br/>Identifier les écarts éventuels et corriger les problèmes rencontrés.</p>
+</div>
+</div></div></div>
+</div>
+</article>
+<article class="project-item">
+<div class="project-header">
+<div class="project-icon"><span>🌡️</span></div>
+<div class="project-info">
+<h3>Thermomètre électronique pour bébé</h3>
+<p class="project-description">Développement d'une carte électronique permettant la surveillance et l'indication de température pour un thermomètre destiné aux bébés.</p>
+</div>
+<button aria-controls="project2-content" aria-expanded="false" class="accordion-button" id="project2-header">
+<span aria-hidden="" class="accordion-icon">▾</span>
+<span class="accordion-title">Détails</span>
+</button>
+</div>
+<div aria-labelledby="project2-header" class="accordion-content scrollable" id="project2-content" role="region">
+<div class="project-section-grid"><article class="project-section-card" data-detail="project2-content-section-1" data-title="Context" role="button" tabindex="0"><div class="project-section-card-top"><h4>Context</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c1">C.1</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project2-content-section-1">
+<div class="detail-card">
+<div class="detail-card-image"><img alt="" src="images/docx/tdb_cdc_product.jpg"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">CONTEXTE</span>
+<h4>Analyse du cahier des charges</h4>
+<p><strong></strong><br/>L’analyse du cahier des charges a permis d’identifier les besoins fonctionnels du thermomètre de bain destiné aux nouveaux-nés. Le système doit mesurer la température de l’eau, comparer cette valeur à des seuils prédéfinis et informer l’utilisateur à l’aide de voyants lumineux. Les contraintes principales concernent l’autonomie, le coût de fabrication et la fiabilité des mesures.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project2-content-section-2" data-title="Architecture" role="button" tabindex="0"><div class="project-section-card-top"><h4>Architecture</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c2">C.2</a><a class="competence-tag" href="competences.html#c3">C.3</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project2-content-section-2">
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/custom_arch/tdb_architecture.png" alt="Synoptique architectural"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">ARCHITECTURE</span>
+<h4>Analyse de l'architecture du système</h4>
+<p><strong>Analyse de l’architecture</strong><br/>L'étude du synoptique fonctionnel a permis de décomposer le système en plusieurs chaînes fonctionnelles : acquisition, traitement, alimentation et action. L'architecture retenue repose sur un microcontrôleur chargé de coordonner les effets lumineux et sonores en fonction des informations disponibles. L'analyse a également permis d'identifier les composants nécessaires à la génération des signaux lumineux, à la commande du buzzer ainsi qu'à la gestion de l'alimentation du système. Cette phase a servi à valider la cohérence de la solution technique avant le passage à la conception détaillée et à la réalisation des cartes électroniques.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project2-content-section-3" data-title="Fabrication" role="button" tabindex="0"><div class="project-section-card-top"><h4>Fabrication</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c4">C.4</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project2-content-section-3">
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/custom_fabrication/tdb_typon_bottom.png" alt="Typon Bottom Copper TDB"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">FABRICATION</span>
+<h4>Typon de la couche inférieure</h4>
+<p><strong>Ce typon est une photo de la face inférieure Bottom Copper.</strong><br/>Cette image représente les pistes de cuivre situées sur la couche inférieure du circuit imprimé du thermomètre de bain. Elle sert de masque lors de l’insolation afin de transférer le routage sur la plaque cuivrée avant la gravure. Ce typon permet d’obtenir les liaisons électriques entre les composants de la carte.</p>
+</div>
+</div>
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/custom_fabrication/tdb_typon_top.png" alt="Typon Top Copper TDB"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">FABRICATION</span>
+<h4>Typon de la couche supérieure</h4>
+<p><strong>Ce typon est une photo de la face supérieure Top Copper.</strong><br/>Cette image présente la couche supérieure du circuit imprimé. Elle complète la face inférieure pour réaliser une carte double face. L’utilisation de cette couche permet d’optimiser le passage des pistes et de faciliter l’intégration des composants dans les dimensions imposées au projet.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project2-content-section-4" data-title="Test de vérification" role="button" tabindex="0"><div class="project-section-card-top"><h4>Test de vérification</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#v1">V.1</a><a class="competence-tag" href="competences.html#v2">V.2</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project2-content-section-4">
+<div class="detail-card">
+<div class="detail-card-image"><img alt="Mesure dimensionnelle" src="images/docx/tdb_ddv_1.jpg"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des essais et validation</h4>
+<p><strong></strong><br/>Cette photo montre un essai fonctionnel réalisé sur la carte électronique du thermomètre de bain. La carte est alimentée et reliée à des sondes de mesure afin de vérifier le comportement du circuit en conditions de test. L’allumage de la LED bleue permet de confirmer que la chaîne de traitement réagit correctement et que le système indique l’état correspondant à la température mesurée. Cet essai permet donc de valider le fonctionnement de l’alimentation, du traitement logique et de la signalisation lumineuse du prototype.</p>
+</div>
+</div>
+<div class="detail-card">
+<div class="detail-card-image"><img alt="" src="images/docx/tdb_ddv_2.jpg"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des écarts et conformité</h4>
+<p><strong></strong><br/>Les mesures relevées lors des essais ont été comparées aux tolérances définies dans le cahier des charges. Cette analyse permet d’identifier les éventuels écarts entre le prototype réalisé et les performances attendues, puis de conclure sur la conformité du système.</p>
+</div>
+</div>
+<div class="detail-card">
+<div class="detail-card-image"><img alt="Analyse des essais en étuve" src="images/docx/tdb_ddv_3.jpg"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des essais et validation</h4>
+<p><strong>Analyse des essais en étuve</strong><br/>Cette photo présente une étuve de test utilisée pour valider le fonctionnement du système de mesure de température. L’étuve permet de reproduire différentes conditions thermiques de manière contrôlée afin de vérifier la précision et la réactivité du capteur de chaleur intégré au thermomètre de bain. Les essais réalisés ont permis de comparer les températures mesurées aux valeurs attendues et de confirmer le bon fonctionnement du système.</p>
+</div>
+</div></div></div>
+</div>
+</article>
+<article class="project-item">
+<div class="project-header">
+<div class="project-icon"><span>🏎️</span></div>
+<div class="project-info">
+<h3>Kart à hélice radiocommandé</h3>
+<p class="project-description">Conception d'un système complet de commande et de pilotage pour un kart à hélice radiocommandé utilisant une communication infrarouge.</p>
+</div>
+<button aria-controls="project3-content" aria-expanded="false" class="accordion-button" id="project3-header">
+<span aria-hidden="" class="accordion-icon">▾</span>
+<span class="accordion-title">Détails</span>
+</button>
+</div>
+<div aria-labelledby="project3-header" class="accordion-content scrollable" id="project3-content" role="region">
+<div class="project-section-grid"><article class="project-section-card" data-detail="project3-content-section-1" data-title="Context" role="button" tabindex="0"><div class="project-section-card-top"><h4>Context</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c1">C.1</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project3-content-section-1">
+<div class="detail-card">
+<div class="detail-card-image"><img alt="" src="images/kart-helice.jpg"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">CONTEXTE</span>
+<h4>Analyse du cahier des charges</h4>
+<p><strong></strong><br/>L’étude du cahier des charges a permis de définir les fonctions principales du kart radiocommandé. Le système doit assurer la réception des commandes infrarouges, la gestion de la propulsion, le contrôle de la direction ainsi que l’alimentation de l’ensemble. Cette phase d’analyse a permis d’identifier les contraintes techniques et les performances attendues avant le début de la conception.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project3-content-section-2" data-title="Architecture" role="button" tabindex="0"><div class="project-section-card-top"><h4>Architecture</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c2">C.2</a><a class="competence-tag" href="competences.html#c3">C.3</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project3-content-section-2">
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/custom_arch/kah_architecture.png" alt="Synoptique architectural"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">ARCHITECTURE</span>
+<h4>Analyse de l'architecture du système</h4>
+<p><strong>Synoptique architectural</strong><br/>L'analyse du synoptique architectural a permis de définir l'organisation complète de l'émetteur du kart à hélice radiocommandé. Les commandes utilisateur sont acquises à l'aide d'un bouton poussoir et de deux potentiomètres permettant de piloter la vitesse et la direction du véhicule. Ces informations sont traitées par un microcontrôleur ATmega328P chargé de générer les signaux de commande et d'assurer la communication infrarouge avec le récepteur embarqué sur le kart. L'architecture intègre également une chaîne d'alimentation composée d'une batterie Li‑Po et d'un régulateur de tension garantissant le fonctionnement stable de l'ensemble du système. Cette étude a permis de valider les échanges d'informations entre les différents blocs fonctionnels et de justifier les choix techniques retenus pour répondre aux exigences du cahier des charges.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project3-content-section-3" data-title="Fabrication" role="button" tabindex="0"><div class="project-section-card-top"><h4>Fabrication</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#c4">C.4</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project3-content-section-3">
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/custom_fabrication/kah_typon_top.jpg" alt="Typon Top Copper KAH"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">FABRICATION</span>
+<h4>Typon de la face supérieure du récepteur</h4>
+<p><strong>Ce typon est une photo de la couche supérieure Top Copper du récepteur du kart à hélice.</strong><br/>Il représente les pistes et les pastilles destinées à recevoir les composants électroniques. Ce document sert de masque de fabrication pour transférer le dessin du circuit sur la plaque cuivrée et garantit le respect du routage défini pendant la conception.</p>
+</div>
+</div>
+<div class="detail-card">
+<div class="detail-card-image"><img src="images/custom_fabrication/kah_typon_bottom.jpg" alt="Typon Bottom Copper KAH"></div>
+<div class="detail-card-body">
+<span class="detail-section-name">FABRICATION</span>
+<h4>Typon de la face inférieure du récepteur</h4>
+<p><strong>Ce typon est une photo de la couche inférieure Bottom Copper du récepteur.</strong><br/>Les pistes visibles assurent les liaisons électriques entre les différents blocs du système. Cette couche permet de compléter le routage de la carte double face tout en respectant les contraintes d’encombrement. Les pastilles du microcontrôleur ont été adaptées pour permettre l’utilisation d’un support, ce qui facilite le montage et limite les risques lors de la soudure.</p>
+</div>
+</div></div><article class="project-section-card" data-detail="project3-content-section-4" data-title="Test de vérification" role="button" tabindex="0"><div class="project-section-card-top"><h4>Test de vérification</h4><div aria-label="Compétences GEII liées" class="project-section-badges"><a class="competence-tag" href="competences.html#v1">V.1</a><a class="competence-tag" href="competences.html#v2">V.2</a></div></div><p>Cliquez sur la carte pour afficher le texte et les photos de cette partie.</p><span class="project-section-open">Ouvrir le détail →</span></article><div class="project-section-detail" hidden="" id="project3-content-section-4">
+<div class="detail-card">
+<div class="detail-card-image"><img alt="Réception d'une trame NEC" src="images/custom_tests/kah_trame_nec.png"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des essais et validation</h4>
+<p><strong>Réception d'une trame NEC</strong><br/>Cette capture d’écran d’oscilloscope montre la réception d’une trame infrarouge de type NEC. L’analyse du signal permet de vérifier la présence de l’impulsion de synchronisation ainsi que la transmission correcte des données entre l’émetteur et le récepteur. Les mesures réalisées confirment que la communication infrarouge fonctionne conformément au protocole attendu et valident le bon décodage des commandes de pilotage.</p>
+</div>
+</div>
+<div class="detail-card">
+<div class="detail-card-image"><img alt="Contrôle dimensionnel" src="images/docx/kah_ddv_3.jpg"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des écarts et conformité</h4>
+<p><strong>Contrôle dimensionnel</strong><br/>Comparer les dimensions mesurées avec les tolérances attendues.</p>
+</div>
+</div>
+<div class="detail-card">
+<div class="detail-card-image"><img alt="Mesure de la largeur" src="images/docx/kah_ddv_4.jpg"/></div>
+<div class="detail-card-body">
+<span class="detail-section-name">TESTS DE VÉRIFICATION</span>
+<h4>Analyse des essais et validation</h4>
+<p><strong>Mesure de la largeur</strong><br/>Vérifier que la carte respecte les dimensions imposées.</p>
+</div>
+</div></div></div>
+</div>
+</article>
+</div>
+</section>
+</main>
+
+<div class="modal-backdrop" id="projectModal">
+<div aria-labelledby="projectModalTitle" aria-modal="true" class="modal project-modal" role="dialog">
+<div class="modal-header">
+<h3 id="projectModalTitle"></h3>
+<button class="btn btn-secondary" id="projectModalClose">Fermer</button>
+</div>
+<div class="modal-body project-modal-body" id="projectModalBody"></div>
+</div>
+</div>
+<footer class="footer"><p>© <span id="year"></span> Gabriel Antonini - Portfolio BUT GEII</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
